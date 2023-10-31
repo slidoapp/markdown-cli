@@ -1,0 +1,25 @@
+name: tests-cli
+
+on:
+  push:
+
+jobs:
+  tests-cli:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node: [ 18, 20 ]
+
+    steps:
+    - name: checkout
+      uses: actions/checkout@v4
+
+    - name: setup node
+      uses: actions/setup-node@v4
+      with:
+        node-version: ${{ matrix.node }}
+
+    - run: npm link
+    
+    - run: markdown
