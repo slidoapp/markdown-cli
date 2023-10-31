@@ -1,0 +1,23 @@
+{
+  "name": "markdown-cli",
+  "version": "0.1.0",
+  "description": "Convert Markdown to HTML.",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin":{
+    "markdown": "src/cli.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Jozef Izso",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jozefizso/markdown-cli.git"
+  },
+  "keywords": [
+    "markdown",
+    "remark",
+    "cli"
+  ]
+}
