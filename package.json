@@ -4,8 +4,8 @@
   "description": "Convert Markdown to HTML.",
   "license": "MIT",
   "main": "src/index.js",
-  "bin":{
-    "markdown": "src/cli.js"
+  "bin": {
+    "markdown": "src/cli.mjs"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -19,5 +19,9 @@
     "markdown",
     "remark",
     "cli"
-  ]
+  ],
+  "dependencies": {
+    "remark": "^15.0.1",
+    "remark-html": "^16.0.1"
+  }
 }
