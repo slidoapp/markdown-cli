@@ -1,6 +1,6 @@
 {
   "name": "@slidoapp/markdown-cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert Markdown to HTML.",
   "license": "MIT",
   "main": "src/index.js",
