@@ -13,7 +13,7 @@
   "author": "Jozef Izso",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jozefizso/markdown-cli.git"
+    "url": "git+https://github.com/slidoapp/markdown-cli.git"
   },
   "keywords": [
     "markdown",
